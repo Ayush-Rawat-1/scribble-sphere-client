@@ -49,7 +49,7 @@ function CreateArea(props) {
             {isExpanded && <ExpandLessIcon className="float-right rounded-full hover:bg-yellow-500 cursor-pointer" onClick={handleExpand} />}
             
             {isExpanded && (<input
-                className=" border-none p-2 outline-none text-xl resize-none block"
+                className=" border-none p-2 outline-none text-xl resize-none block w-5/6"
                 name="title"
                 onChange={handleTitleChange}
                 value={title}
