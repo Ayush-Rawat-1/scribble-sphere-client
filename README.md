@@ -68,7 +68,7 @@ cd ../client
 npm run dev
 
 
-3. Open your browser and navigate to http://localhost:3000 to see the application in action.
+3. Open your browser and navigate to http://localhost:5173 to see the application in action.
 
 ## Deployment
 
@@ -91,6 +91,3 @@ Contributions are welcome! Please open an issue or submit a pull request.
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
----
-
-Feel free to modify any section to better suit your project's specifics.
