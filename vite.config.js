@@ -7,7 +7,7 @@ export default defineConfig({
   server:{
     proxy:{
       '/api':{
-        target:"https://scribble-sphere-server.onrender.com/api",
+        target:"https://scribble-sphere-server-jjh4.onrender.com/api",
         changeOrigin:true,
         rewrite: (path)=>path.replace(/^\/api/,'')
       }
